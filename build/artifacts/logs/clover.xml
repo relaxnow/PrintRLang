@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1402175928">
+  <project timestamp="1402175928">
+    <package name="RelaxNow\Parser\V1">
+      <file name="/Volumes/SITES/relaxnow/PrintRLang/src/V1/Parser.php">
+        <class name="Parser" namespace="RelaxNow\Parser\V1">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="22" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="__construct" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="method" name="parse" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="24" type="method" name="lf" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="method" name="arrayStart" crap="2" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="34" type="method" name="openBrace" crap="2" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="method" name="closeBrace" crap="2" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="22" coveredelements="0"/>
+      </file>
+      <file name="/Volumes/SITES/relaxnow/PrintRLang/src/V1/RecursiveDescentParser.php">
+        <class name="RecursiveDescentParser" namespace="RelaxNow\Parser\V1">
+          <metrics methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="11" coveredelements="0"/>
+        </class>
+        <class name="SyntaxException" namespace="RelaxNow\Parser\V1">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="__construct" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="method" name="consume" crap="6" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="31" type="method" name="lookAhead" crap="2" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <metrics loc="37" ncloc="27" classes="2" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="11" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="2" loc="79" ncloc="69" classes="3" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="0" elements="33" coveredelements="0"/>
+  </project>
+</coverage>

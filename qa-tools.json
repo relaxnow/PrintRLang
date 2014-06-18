@@ -1,0 +1,61 @@
+{
+	"composerBinDir": "vendor\/bin",
+	"projectName": "PrintRLang",
+	"buildArtifacts": {
+		"enabled": true,
+		"path": "build\/artifacts"
+	},
+	"travis": {
+		"enabled": true,
+		"phpVersions": {
+			"1": "5.6",
+			"2": "5.5",
+			"3": "5.4",
+			"4": "5.3",
+			"5": "hhvm"
+		},
+		"env": {
+			"enabled": false
+		},
+		"slack": {
+			"enabled": false
+		}
+	},
+	"enablePhpTools": true,
+	"enableComposer": true,
+	"enablePhpLint": true,
+	"enablePhpMessDetector": true,
+	"phpMdExcludePatterns": [
+		
+	],
+	"enablePhpCodeSniffer": true,
+	"phpCodeSnifferCodingStyle": "PSR2",
+	"phpCsExcludeSymfony": false,
+	"phpCsExcludeCustomPatterns": [
+		""
+	],
+	"phpCsExcludePatterns": [
+		""
+	],
+	"enablePhpCopyPasteDetection": true,
+	"enablePhpSecurityChecker": true,
+	"phpSrcPath": [
+		"src"
+	],
+	"enablePhpUnit": true,
+	"customPhpUnitXml": false,
+	"phpTestsPath": [
+		
+	],
+	"enablePhpUnitAutoload": true,
+	"phpUnitAutoloadPath": "vendor\/autoload.php",
+	"enableJsTools": false,
+	"enableJsHint": false,
+	"enableBehat": false,
+	"enablePreCommitHook": true,
+	"md5Command": "md5",
+	"_qa_tools_run_completed": true,
+	"phpCpdExcludePatterns": [
+		
+	]
+}
