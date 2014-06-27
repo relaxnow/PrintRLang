@@ -29,7 +29,7 @@ class ArrayParser
         $this->braceOpen();
         $this->lf();
         while ($this->parser->lookAheadRegex('\s+\[')) {
-            $result = $this->arrayContent($result);
+            $result = $this->arrayAssign($result);
         }
         $this->spacesOptional();
         $this->braceClose();
@@ -57,7 +57,7 @@ class ArrayParser
         $this->parser->consume(')');
     }
 
-    private function arrayContent($result)
+    private function arrayAssign($result)
     {
         $this->spacesRequired();
 

@@ -37,7 +37,7 @@ class ArrayParser
 
         //     [key] => value
         while (!$this->parser->lookAhead(')')) {
-            $result = $this->arrayContent($result);
+            $result = $this->arrayAssign($result);
         }
 
         // )
@@ -82,7 +82,7 @@ class ArrayParser
      * @param $result
      * @return mixed
      */
-    private function arrayContent($result)
+    private function arrayAssign($result)
     {
         // SPACE+
         $this->space();
